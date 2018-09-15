@@ -1,49 +1,15 @@
-<!--
-Created using JS Bin
-http://jsbin.com
-
-Copyright (c) 2018 by Ashygoyal (http://jsbin.com/qumulis/1/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-<meta name="robots" content="noindex">
-<style id="jsbin-css">
-.person {
-  border: 1px solid #eee;
-  width: 200px;
-  box-shadow: 3px 3px 5px #ccc;
-  padding: 15px;
-  display: inline-block;
-  margin: 10px;
-}
-</style>
-<script src="https://fb.me/react-with-addons-15.1.0.js"></script>
-<script src="https://fb.me/react-dom-15.1.0.js"></script>
-<div id='p1'></div>
-<div id='p2'></div>
-<!-- or -->
-<div id="app"></div>
-<script id="jsbin-javascript">
-function Person(props){
-  return(
-  <div className='person'>
-    <h1> {props.name} </h1>
-    <p> {props.age} </p>
-  </div>
-  );
-}
-
-ReactDOM.render(<Person name='John' age='27'/>, document.querySelector('#p1'));
-ReactDOM.render(<Person name='Jane' age='26'/>, document.querySelector('#p2'));
-
-// Below is another way of using components
-
-var app = (
-  <div>
-  <Person name='Ashish' age='30'/>
-  <Person name='Goyal' age='29'/>
-  </div>
-);
-
-ReactDOM.render(app, document.querySelector('#app'));
-</script>
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://fb.me/react-with-addons-15.1.0.js"></script>
+		<script src="https://fb.me/react-dom-15.1.0.js"></script>
+    <script src="js/RenderTickClock_better.js"></script>
+    <link href='css/ReactLecture005.css' type='stylesheet' />
+	</head>
+	<body>
+    <div id='p1'></div>
+    <div id='p2'></div>
+      <!-- or -->
+		<div id='app'> </div>
+	</body>
+</html>
