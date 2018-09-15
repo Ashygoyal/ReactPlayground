@@ -1,0 +1,31 @@
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by Ashygoyal (http://jsbin.com/qumulis/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<script src="https://fb.me/react-with-addons-15.1.0.js"></script>
+<script src="https://fb.me/react-dom-15.1.0.js"></script>
+
+<div id='p1'></div>
+<div id='p2'> </div>
+
+<div id='app'> </div>
+<script id="jsbin-javascript">
+function tick(){
+const timings = (
+  <div>
+  <h1> Hey World </h1>
+  <p> The Time is {new Date().toLocaleTimeString()}. </p>
+  </div>
+);
+ReactDOM.render(timings, document.querySelector('#app'));
+}
+
+setInterval(tick, 1000);
+
+
+</script>
