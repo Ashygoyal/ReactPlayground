@@ -58,7 +58,7 @@ The return value of the function is stored in an accumulator (result/total).
 Syntax:
 array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
 
-tota (Required) - The initialValue, or the previously returned value of the function
+total (Required) - The initialValue, or the previously returned value of the function
 currentValue (Required) - The value of the current element
 currentIndex (Optional) - The array index of the current element
 arr	(Optional) - The array object the current element belongs to
