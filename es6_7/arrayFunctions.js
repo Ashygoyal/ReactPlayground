@@ -29,7 +29,7 @@ const findNumArrayIndex = numArray.findIndex((num)=>{
   return num > 3;
 });
 
-console.log(findNumArrayIndex);
+console.log(findNumArrayIndex); // 3
 
 //-----------FILTER function below------------
 //The filter() method creates a new array with all 
