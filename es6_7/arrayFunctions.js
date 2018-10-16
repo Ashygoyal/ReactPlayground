@@ -19,7 +19,7 @@ const findNumArray = numArray.find((num)=>{
   return num > 3;
 });
 
-console.log(findNumArray);
+console.log(findNumArray); // outputs 4
 
 //----------------FindIndex function below-----------------
 // FindIndex returns the index of first element of array that matches
